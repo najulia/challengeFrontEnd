@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsivo.css">
+    <link rel="stylesheet" href="./css/adm.css">
+    <title>Alura Geek</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./assets/Logo.svg" alt="Logo da AluraGeek" class="cabecalho__logo">
+        <button class="cabecalho__botao">Admin</button>
+        <button class="cabecalho__botao-busca"> <img src="./assets/Icone.svg" alt="Buscar"> </button>
+        <input type="text" class="cabecalho__busca" placeholder="O que você procura?" >
+    </header>
+
+    <main>
+        <section class="admin-container">
+
+            <h1 class="produtos__titulo">Adicionar produto</h1>
+
+            <!-- <div class="upar-arquivo">
+                <label for="input-file" class="input-file__label"><img src="./assets/icone-mais.svg" class="icone-mais">
+                    <p>Adicione uma imagem para o produto</p></label>
+                    <input type="file" id="input-file" accept="image/jpeg, image/png" capture>
+            </div> -->
+            <input type="text" id="input-image" class="input__forms-produto" placeholder="Caminho da imagem">
+            <input type="text" id="input-nome" class="input__forms-produto" placeholder="Nome do produto">
+            <input type="number" id="input-preco" class="input__forms-produto" placeholder="Preço">
+            <input type="text" id="input-descricao" class="input__forms-produto" placeholder="Descreva o produto">
+
+            <button class="botao adicionar-produto__botao">Adicionar produto</button>
+
+        </section>
+
+    </main>
+
+
+
+    <footer class="rodape">
+
+        <div class="rodape__info">
+
+            <img src="./assets/Logo.svg" alt="Logo da AluraGeek" class="rodape__logo">
+
+        <div class="rodape__links">
+
+            <a href="#" class="rodape__link">Quem somos nós</a>
+            <a href="#" class="rodape__link">Política de privacidade</a>
+            <a href="#" class="rodape__link">Programa de fidelidade</a>
+            <a href="#" class="rodape__link">Nossas lojas</a>
+            <a href="#" class="rodape__link">Quero ser franqueado</a>
+            <a href="#" class="rodape__link">Anuncie aqui</a>
+
+        </div>
+
+        </div>
+
+
+        <div class="forms-fale--conosco">
+            <h2 class="forms__titulo">Fale Conosco</h2>
+            <input class="input__forms-rodape input__forms-rodape--nome" type="text" name="nome" placeholder="Nome">
+           <textarea name="mensagem" class="input__forms-rodape input__forms-rodape--mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+            <input type="submit" value="Enviar mensagem" class="botao rodape__botao-enviar">
+        </div>
+    </footer>
+
+    <div class="rodape__info--autor">
+        <p class="rodape__link">Desenvolvido por AnaOliv | 2022 </p>
+    </div>
+
+    <script type="module" src="./js/cadastraProduto.js"></script>
+
+
+</body>

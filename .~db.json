@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "image": "assets/starwars-1.svg",
+      "title": "ABC",
+      "price": "96",
+      "description": "asdasdas",
+      "id": 4
+    },
+    {
+      "image": "assets/starwars-2.svg",
+      "title": "DEF",
+      "price": "78.55",
+      "description": "Legal",
+      "id": 5
+    },
+    {
+      "image": "assets/starwars-4.svg",
+      "title": "Star wars",
+      "price": "54",
+      "description": "#45323453",
+      "id": 6
+    }
+  ]
+}

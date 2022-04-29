@@ -1,0 +1,61 @@
+#input-file{
+    display: none;
+}
+
+
+.admin-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+
+.upar-arquivo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed lightgray;
+    width: 90vw;
+    height: 20vh;
+    background-color: white;
+}
+
+.input-file__label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.icone-mais{
+    margin-bottom: 10px;
+}
+
+.input__forms-produto{
+    background-color: white;
+    box-shadow: 0px 2px 0px 0px  #C8C8C8;
+    height: 50px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    width: 90vw;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.input__forms-produto::placeholder{
+    font-size: 0.9rem;
+    font-weight: 600;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#input-descricao{
+    height: 100px;
+}
+
+.adicionar-produto__botao{
+    margin-bottom: 20px;
+}

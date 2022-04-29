@@ -1,0 +1,28 @@
+.todos-produtos__principal{
+    margin: 5%;
+}
+
+.todos-produtos{
+    
+    justify-content: flex-start;
+    margin-bottom: 5%;
+}
+
+.produtos{
+    justify-content: flex-start;
+}
+
+.card-produtos--admin{
+    position: relative;
+}
+
+.card__acoes{
+    position: absolute;
+    top: 2%;
+    right: 18%;
+    cursor: pointer;
+}
+
+.card__acoes--icone{
+    margin-right: 15px;
+}

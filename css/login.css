@@ -1,0 +1,38 @@
+html{
+    font-family: 'Raleway', sans-serif;
+}
+
+.cabecalho{
+    margin-bottom: 5rem;
+}
+
+.pagina-login{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.pagina-login__titulo{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #464646;
+    margin-bottom: 1rem;
+}
+
+.pagina-login__input{
+    background-color: white;
+    box-shadow: 0px 3px 2px 0px  #C8C8C8;
+    height: 50px;
+    width: 50vw;
+    padding-left: 5px;
+    box-sizing: border-box;
+    margin-bottom: 1.2rem;
+}
+
+.pagina-login__botao{
+    width: 50vw;
+    height: 50px;
+}

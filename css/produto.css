@@ -1,0 +1,24 @@
+.conteudo-produto{
+    margin: 5%;
+}
+
+.produto__img{
+    width: 100%;
+}
+
+
+.produto__titulo{
+    font-size: 1.5rem;
+    color: #464646;
+    font-weight: 400;
+}
+
+.produto__preco{
+    font-size: 1.2rem;
+    color: #464646;
+    font-weight: 800;
+}
+
+.produto__descricao{
+    text-align: justify;
+}
