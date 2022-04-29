@@ -26,6 +26,11 @@ html{
 
 }
 
+.cabecalho__botao:hover{
+    background-color: #2A7AE4;
+    color: white;
+}
+
 .cabecalho__busca{
     cursor: pointer;
 }

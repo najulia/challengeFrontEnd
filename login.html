@@ -24,14 +24,14 @@
         <input type="text" class="cabecalho__busca" placeholder="O que você procura?" >
     </header>
 
-    <main class="pagina-login">
-        
+        <form class="pagina-login">
         <h2 class="pagina-login__titulo">Iniciar sessão</h2>
-        <input type="text" placeholder="Escreva seu e-mail" class="pagina-login__input">
-        <input type="text" placeholder="Escreva sua senha" class="pagina-login__input">
-        <input type="submit" value="Entrar" class="botao pagina-login__botao">
+        <input type="email" placeholder="Escreva seu e-mail" class="pagina-login__input" data-id="inputEmail" required>
+        <input type="password" placeholder="Escreva sua senha" class="pagina-login__input" data-id="inputSenha" required>
+        <input type="submit" value="Entrar" class="botao pagina-login__botao" data-id="inputSubmit">
+        <span data-id="spanErro" class="mensagem-erro"></span>
+        </form>
 
-    </main>
 
     <footer class="rodape">
 
@@ -66,3 +66,7 @@
     </div>
 
 </body>
+
+<script src="./js/validaLogin.js"></script>
+
+</html>
